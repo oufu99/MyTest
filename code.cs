@@ -10,6 +10,4 @@ public class OTASecurity
             var token = 2;
             return new { token = token, expires = int.MaxValue }.ObjectToJson();
         }
-
-        
     }
