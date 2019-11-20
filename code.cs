@@ -23,12 +23,13 @@ public class OTASecurity
             var token = 2;
             return new { token = token, expires = int.MaxValue }.ObjectToJson();
         }
-    }
-
-    }
-	
-	 public static string Add(string AppId, string AppKey)
+       public static string Add(string AppId, string AppKey)
         {
             var token = 2;
             return new { token = token, expires = int.MaxValue }.ObjectToJson();
         }
+    }
+
+    }
+	
+	
