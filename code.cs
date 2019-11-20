@@ -2,7 +2,7 @@ public class OTASecurity
     {
         public static string GenerateTokenString(string AppId, string AppKey)
         {
-            var token = GenerateToken(AppId, AppKey);
+            var token = 2;
             return new { token = token, expires = int.MaxValue }.ObjectToJson();
         }
 
